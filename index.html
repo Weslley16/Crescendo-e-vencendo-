@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crescendo e Vencendo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: #fefefe;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #00c2cb;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 5px solid #00a1aa;
+    }
+    header h1 {
+      font-size: 2.5rem;
+    }
+    header p {
+      font-style: italic;
+      margin-top: 0.5rem;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .produtos, .sobre, .contato {
+      margin-bottom: 3rem;
+    }
+    .integrantes {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+    .card {
+      background: #e1fcff;
+      padding: 1rem;
+      border-radius: 10px;
+      border: 2px solid #00c2cb;
+    }
+    .card h3 {
+      margin-bottom: 0.5rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #00c2cb;
+      color: white;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Crescendo e Vencendo</h1>
+    <p>"Cresça com nós que estamos crescendo também!"</p>
+  </header>
+
+  <section class="produtos">
+    <h2>Nossos Produtos</h2>
+    <p>Vendemos produtos digitais como e-books, cursos, sites e muito mais. Nosso objetivo é entregar valor com qualidade e humor, porque aprender com um sorriso é muito melhor!</p>
+    <img src="https://images.unsplash.com/photo-1606851091892-0c7dce94c3fa" alt="Imagem de produtos digitais">
+  </section>
+
+  <section class="sobre">
+    <h2>Sobre Nós</h2>
+    <p>Somos uma equipe de jovens criativos que decidiu transformar ideias em soluções digitais. Apesar das dificuldades e da demora, um dia o sucesso vem... e quando vem, vem com tudo!</p>
+    <div class="integrantes">
+      <div class="card">
+        <h3>Victor</h3>
+        <p>Gestão, Finanças & Estratégia</p>
+      </div>
+      <div class="card">
+        <h3>Lucas</h3>
+        <p>Produção de Conteúdo e Roteiros</p>
+      </div>
+      <div class="card">
+        <h3>Weslley</h3>
+        <p>Design Gráfico & UX/UI</p>
+      </div>
+      <div class="card">
+        <h3>Cuscuz</h3>
+        <p>Edição de Vídeo e Áudio</p>
+      </div>
+      <div class="card">
+        <h3>Pessoa 1</h3>
+        <p>Área a definir</p>
+      </div>
+      <div class="card">
+        <h3>Pessoa 3</h3>
+        <p>Área a definir</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contato">
+    <h2>Entre em Contato</h2>
+    <p>Quer receber nossas novidades ou tirar dúvidas? Envie seu e-mail para contato!</p>
+    <p><strong>Email:</strong> contato@crescendoevencendo.com</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Crescendo e Vencendo. Feito com carinho (e um pouquinho de café).</p>
+  </footer>
+</body>
+</html>
